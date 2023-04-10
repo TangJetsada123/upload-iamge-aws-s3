@@ -9,7 +9,7 @@ export class UploadService {
   private s3: S3Client
 
   constructor(private configService: ConfigService) {
-    this.region = 'ap-northeast-1'
+    this.region =  configService.get('upload.local_region')
     this.s3 = new S3Client({
       region: this.region,
       credentials: {
