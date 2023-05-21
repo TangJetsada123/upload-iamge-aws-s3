@@ -1,5 +1,11 @@
-accessKeyId = asdasdasdasd Name        // Directory for upload image
-secretAccessKey = asdasdasdfgjkxlcjvdddasd  // Access key is the user ID that uniquely identifies your account.
-bucket =  my-database-mybucket         // Secret key is the password for your account
-acl =  public-read                     // set   your acl to public-read
-region  = ap-northeast-1               // Name region your bucket upload file
+Configuration
+To use this project, you need to set up the following configuration variables:
+
+
+| Variable | Description 
+|----------|----------|
+| accessKeyId   |  AWS access key ID   | 
+| secretAccessKey  |  AWS secret access key  | 
+| bucket  | name of the bucket in your AWS account   | 
+| acl  | access control list (ACL) setting for the uploaded files   | 
+| region  |  AWS region where your bucket is located   | 
